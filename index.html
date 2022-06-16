@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-   <!--Created more descriptive title-->
     <title>Horiseon Home Page</title>
 </head>
 
@@ -30,10 +29,11 @@
     </header>
 
     <!--Added option to place background image into html rather than css if desired for seo. Simply enable below code and comment out relevant css lines for .hero-->
-    <div class="hero"> <!--<img class= "hero" src="assets/images/digital-marketing-meeting.jpg" alt="">--></div>
+    <main>
+    <figure class="hero"> <!--<img class= "hero" src="assets/images/digital-marketing-meeting.jpg" alt="">--></figure>
     <div class="content">
         <!--deleted id and added class-->
-        <div class="mainsection">
+        <div class="mainsection" id="search-engine-optimization">
             <!--Added alt attribute to image-->
             <img src="./assets/images/search-engine-optimization.jpg" alt= "notebook that says SEO, social media, link building, mobile compatability, headings, content, and backlink" class="float-left" />
             <h2>Search Engine Optimization</h2>
@@ -42,7 +42,7 @@
             </p>
         </div>
         <!--deleted redundant id and changed class-->
-        <div class="mainsection">
+        <div class="mainsection" id="online-reputation-management">
             <!--Added blank alt attribute to image; it doesn't contain any information-->
             <img src="./assets/images/online-reputation-management.jpg" alt="" class="float-right" />
             <h2>Online Reputation Management</h2>
@@ -51,7 +51,7 @@
             </p>
         </div>
         <!--deleted redundant id and changed class-->
-        <div class="mainsection">
+        <div class="mainsection" id="social-media-marketing">
             <!--Added blank alt attribute to image; it doesn't contain any information-->
             <img src="./assets/images/social-media-marketing.jpg" alt="" class="float-left" />
             <h2>Social Media Marketing</h2>
@@ -89,7 +89,7 @@
             </p>
         </div>
     </div>
-    <!--Renamed this section from div to footer-->
+    </main>
     <footer>
         <!--Changed heading h2 to h4-->
         <h4>Made with ❤️️ by Horiseon</h4>
