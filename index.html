@@ -8,13 +8,9 @@
 </head>
 
 <body>
-    <!--Renamed this section from div to header-->
     <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <!--renamed this section from div to nav-->
         <nav>
-            <!-- renamed ul to menu-->
-            <menu>
                 <li class="navlinks">
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
@@ -24,72 +20,81 @@
                 <li class="navlinks">
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
-            </menu>
         </nav>
     </header>
 
-    <!--Added option to place background image into html rather than css if desired for seo. Simply enable below code and comment out relevant css lines for .hero-->
     <main>
-    <figure class="hero"> <!--<img class= "hero" src="assets/images/digital-marketing-meeting.jpg" alt="">--></figure>
-    <div class="content">
-        <!--deleted id and added class-->
-        <div class="mainsection" id="search-engine-optimization">
-            <!--Added alt attribute to image-->
-            <img src="./assets/images/search-engine-optimization.jpg" alt= "notebook that says SEO, social media, link building, mobile compatability, headings, content, and backlink" class="float-left" />
-            <h2>Search Engine Optimization</h2>
-            <p>
-                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
-            </p>
-        </div>
-        <!--deleted redundant id and changed class-->
-        <div class="mainsection" id="online-reputation-management">
-            <!--Added blank alt attribute to image; it doesn't contain any information-->
-            <img src="./assets/images/online-reputation-management.jpg" alt="" class="float-right" />
-            <h2>Online Reputation Management</h2>
-            <p>
-                The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
-            </p>
-        </div>
-        <!--deleted redundant id and changed class-->
-        <div class="mainsection" id="social-media-marketing">
-            <!--Added blank alt attribute to image; it doesn't contain any information-->
-            <img src="./assets/images/social-media-marketing.jpg" alt="" class="float-left" />
-            <h2>Social Media Marketing</h2>
-            <p>
-                Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
-            </p>
-        </div>
-    </div>
-    <div class="benefits">
-        <!--consolidated classes into "sidebar"-->
-        <div class="sidebar">
-            <h3>Lead Generation</h3>
-            <!--Added blank alt attribute to image; it doesn't contain any information-->
-            <img src="./assets/images/lead-generation.png" alt=""/>
-            <p>
-                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
-            </p>
-        </div>
-        <!--consolidated classes into "sidebar"-->
-        <div class="sidebar">
-            <h3>Brand Awareness</h3>
-            <!--Added blank alt attribute to image; it doesn't contain any information-->
-            <img src="./assets/images/brand-awareness.png" alt=""/>
-            <p>
-                Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
-            </p>
-        </div>
-        <!--consolidated classes into "sidebar"-->
-        <div class="sidebar">
-            <h3>Cost Management</h3>
-            <!--Added blank alt attribute to image; it doesn't contain any information-->
-            <img src="./assets/images/cost-management.png" alt="" />
-            <p>
-                As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
-            </p>
-        </div>
-    </div>
+        <figure class="hero"> 
+            <!--Optionally, the following line can be added to have the image placed via html instead of css for SEO purposes.-->
+            <!--<img src="./assets/images/digital-marketing-meeting.jpg" alt="" class="hero">-->
+        </figure>
+        <section>
+            <section class="content">
+                <section class="mainsection" id="search-engine-optimization">
+                    <img src="./assets/images/search-engine-optimization.jpg"
+                        alt="notebook that says SEO, social media, link building, mobile compatability, headings, content, and backlink"
+                        class="float-left" />
+                    <h2>Search Engine Optimization</h2>
+                    <p>
+                        The dominance of mobile internet use means that users are searching for the right business as
+                        they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to
+                        increase your visibility and find the right customers for your business.
+                    </p>
+                </section>
+
+                <section class="mainsection" id="online-reputation-management">
+                    <img src="./assets/images/online-reputation-management.jpg" alt="" class="float-right" />
+                    <h2>Online Reputation Management</h2>
+                    <p>
+                        The web is full of opinions, and some of these can be negative. Social media allows anyone with
+                        an internet connection to say whatever they want about your business. Online Reputation
+                        Management gives you the control over what potential customers see when they search for your
+                        business.
+                    </p>
+                </section>
+
+                <section class="mainsection" id="social-media-marketing">
+                    <!--Added blank alt attribute to image; it doesn't contain any information-->
+                    <img src="./assets/images/social-media-marketing.jpg" alt="" class="float-left" />
+                    <h2>Social Media Marketing</h2>
+                    <p>
+                        Social media continues to have a sizable influence on buying habits. Social media marketing
+                        helps you determine which platforms are suited to your brand, using analytics to find the right
+                        markets and increase your lead generation.
+                    </p>
+                </section>
+            </section>
+
+            <section class="sidebar">
+                <section class="benefit">
+                    <h3>Lead Generation</h3>
+                    <img src="./assets/images/lead-generation.png" alt="" />
+                    <p>
+                        Inbound strategies for lead generation require less work for your business, bringing customers
+                        directly to your website.
+                    </p>
+                </section>
+
+                <section class="benefit">
+                    <h3>Brand Awareness</h3>
+                    <img src="./assets/images/brand-awareness.png" alt="" />
+                    <p>
+                        Users find your business through paid and organic searches, increasing the search ranking and
+                        visibility for your business.
+                    </p>
+                </section>
+
+                <section class="benefit">
+                    <h3>Cost Management</h3>
+                    <img src="./assets/images/cost-management.png" alt="" />
+                    <p>
+                        As the search ranking for your business increases, your advertising costs decrease, and you no
+                        longer need to advertise your page.
+                    </p>
+                </section>
+            </section>
     </main>
+
     <footer>
         <!--Changed heading h2 to h4-->
         <h4>Made with ❤️️ by Horiseon</h4>

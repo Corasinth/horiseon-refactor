@@ -75,6 +75,7 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
+    /*Cut the next 2 lines to have the image placed via html instead of css*/
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
@@ -95,7 +96,7 @@ p {
 }
 
 /*Sidebar Text and Image*/
-.benefits {
+.sidebar {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -106,17 +107,17 @@ p {
     background-color: #2589bd;
 }
 
-.sidebar {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.sidebar h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.sidebar img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
