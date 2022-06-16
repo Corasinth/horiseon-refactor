@@ -54,9 +54,9 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+   /* background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center;*/
 }
 
 .float-left {
@@ -134,6 +134,7 @@ p {
     max-width: 150px;
 }
 
+/*selector changed from class to id to fix link*/
 #search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,6 +162,7 @@ p {
     color: #ffffff;
 }
 
+/*selector changed from class to id to fix link*/
 #search-engine-optimization img {
     max-height: 200px;
 }
@@ -173,6 +175,7 @@ p {
     max-height: 200px;
 }
 
+/*selector changed from class to id to fix link*/
 #search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -188,6 +191,7 @@ p {
     font-size: 36px;
 }
 
+/* changed selectors from class to element for footer*/
 footer {
     padding: 30px;
     clear: both;
