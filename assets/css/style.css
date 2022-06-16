@@ -38,9 +38,6 @@ header nav {
 .navlinks {
     display: inline-block;
     margin-left: 25px;
-}
-
-a {
     color: #ffffff;
     text-decoration: none;
 }
@@ -95,7 +92,7 @@ p {
     margin-left: 25px;
 }
 
-/*Sidebar Text and Image*/
+/*Sidebar Text and Images*/
 .sidebar {
     margin-right: 20px;
     padding: 20px;
