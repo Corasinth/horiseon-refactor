@@ -36,13 +36,13 @@ header nav {
     font-size: 20px;
 }
 
-/*Selector changed from class to element for header, div to nav*/
-header nav ul {
+/*Selector changed from class to element for header, div to nav, and ul to menu*/
+header nav menu {
     list-style-type: none;
 }
 
-/*Selector changed from class to element for header, div to nav*/
-header nav ul li {
+/*Selector changed from class to element for header, div to nav, and ul to menu*/
+header nav menu li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -205,6 +205,6 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+footer h4 {
     font-size: 20px;
 }
